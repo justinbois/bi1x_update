@@ -3,4 +3,4 @@ echo "Nothing to update yet. The next update will have the class sequencing data
 
 # Activate the rachis-qiime2-2026.4 environment
 echo "Activating the rachis-qiime2-2026.4 conda environment...."
-conda init; conda activate rachis-qiime2-2026.4
+conda activate rachis-qiime2-2026.4
