@@ -1,4 +1,4 @@
 cd ~/bi1x_update ;
-git pull ;
+git pull --quiet;
 ./run_update.sh ;
 cd ~/ ;
