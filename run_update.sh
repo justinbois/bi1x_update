@@ -11,6 +11,8 @@ printf '\nUnpacking sequencing data....\n\n'
 
 unzip "${HOME}/abx_sequencing.zip" -d "${HOME}"
 
+rm -f "${HOME}/abx_sequencing.zip"
+
 printf '\n\n**********************************************************\n'
 printf ' Do not forget to run conda activate rachis-qiime2-2026.4\n'
 printf '**********************************************************\n\n'
