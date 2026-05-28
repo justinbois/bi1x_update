@@ -9,7 +9,7 @@ wget -O "${HOME}/abx_sequencing.zip" \
 
 printf '\nUnpacking sequencing data....\n\n'
 
-unzip "${HOME}/abx_sequencing.zip" -d "${HOME}"
+unzip -o "${HOME}/abx_sequencing.zip" -d "${HOME}"
 
 rm -f "${HOME}/abx_sequencing.zip"
 
